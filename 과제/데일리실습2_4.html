@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td { 
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            border-collapse: collapse;
+        }
+    
+        .black {
+            background-color: black;
+            border-collapse: collapse;
+        }
+        .parent {
+          position: absolute;
+        }
+        .son {
+          position: relative;
+          right: 1000px;
+        }
+        .son1 {
+          position: relative;
+          bottom: 300px;
+          right: 300px;
+        }
+        .son2 {
+          position: relative;
+          left: 200px;
+        }
+        .son3 {
+          position: relative;
+          right: 200px;
+        }
+      </style>
+</head>
+<body>
+      <div>
+        <table border="2" style="border-collapse: collapse;">
+          <tr>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+          </tr>
+          <tr>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+          </tr>
+          <tr>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="parent"><img class="son" src="black_pawn.png" width="100" alt=""></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+          </tr>
+          <tr>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+          </tr>
+          <tr>
+            <td class="black"></td>
+            <td></td>
+            <td class="black"></td>
+            <td class="parent"><img class="son1" src="white_queen.png" width="100" alt=""></td>
+            <td class="black" class="parent"><img class="son2" src="white_king.png" width = "100" alt=""></td>
+            <td></td>
+            <td class="black"></td>
+            <td class="parent"><img class="son3" src="white_rook.png" width = "100" alt=""></td>
+          </tr>
+        </table>
+      </div>
+    </body>
+</html>
